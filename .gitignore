@@ -1,0 +1,4 @@
+.ipynb_checkpoints
+__pycache__
+ViT-B-32.pt
+ViT-B-16.pt
