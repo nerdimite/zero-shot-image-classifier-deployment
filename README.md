@@ -18,6 +18,7 @@ This code was presented as part of the [Workshop on CellStrat Hub API](https://w
 ### Deployment
 
 - This model is hosted as an API on [CellStrat Hub](https://cellstrathub.com/) and the Interactive Web Demo can be accessed at [https://clip-classifier.netlify.app](https://clip-classifier.netlify.app)
-
-- The model is deployed as an API using [CellStrat Hub](https://cellstrathub.com/). You can learn more about deployment [here](https://docs.cellstrathub.com/hubapi%20deployment%20%F0%9F%9A%80/quickstart/)
+- You can learn more about Hub API deployment [here](https://docs.cellstrathub.com/hubapi%20deployment%20%F0%9F%9A%80/quickstart/)
 - The Next.js Frontend App's source code can be found at [clip-app/](clip-app/)
+
+![web-app](web-app.jpg)

@@ -134,7 +134,7 @@ export default function Home() {
           <div className="w-full p-2 border rounded-md text-gray-700 focus:outline-none focus:border-blue-600 mb-3">
             https://api.cellstrathub.com/
             <input
-              className="border-none focus:outline-none w-1/2"
+              className="border-none focus:outline-none w-2/3"
               placeholder="username/api-name"
               onChange={(e) => {
                 setEndpoint("https://api.cellstrathub.com/" + e.target.value);
