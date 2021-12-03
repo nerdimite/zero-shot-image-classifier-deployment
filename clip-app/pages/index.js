@@ -12,28 +12,10 @@ import {
 } from "../components/core";
 
 const Results = (props) => {
-  const colorOptions = [
-    { bg: "bg-purple-200", text: "purple-600" },
-    { bg: "bg-blue-200", text: "blue-600" },
-    { bg: "bg-red-200", text: "red-600" },
-    { bg: "bg-green-200", text: "green-600" },
-    { bg: "bg-pink-200", text: "pink-600" },
-    { bg: "bg-yellow-200", text: "yellow-600" },
-  ];
-  let color = colorOptions[Math.floor(Math.random() * colorOptions.length)];
   return (
     <div>
-      <Badge
-        label={`${props.label}: ${props.value}%`}
-        bgColor={color.bg}
-        textColor={"text-" + color.text}
-        size="regular"
-      />
-      <Progress
-        value={props.value}
-        bgColor={color.bg}
-        barColor={"bg-" + color.text}
-      />
+      <Badge label={`${props.label}: ${props.value}%`} />
+      <Progress value={props.value} />
     </div>
   );
 };

@@ -121,12 +121,10 @@ export const SecondaryButton = (props) => {
 export const Progress = (props) => {
   return (
     <div className="relative transition ease-in duration-500">
-      <div
-        className={`overflow-hidden h-3 text-xs flex rounded-full ${props.bgColor}`}
-      >
+      <div className="overflow-hidden h-3 text-xs flex rounded-full bg-purple-200">
         <div
           style={{ width: `${props.value}%` }}
-          className={`shadow-none flex flex-col text-center rounded-full whitespace-nowrap text-white justify-center ${props.barColor}`}
+          className="shadow-none flex flex-col text-center rounded-full whitespace-nowrap text-white justify-center bg-purple-600"
         ></div>
       </div>
     </div>
@@ -134,21 +132,8 @@ export const Progress = (props) => {
 };
 
 export const Badge = (props) => {
-  const sizeChart = {
-    small: "text-sm py-1 px-2",
-    regular: "py-1 px-3",
-    medium: "text-md py-2 px-4",
-    large: "text-lg py-2 px-4",
-  };
-
   return (
-    <span
-      className={`${
-        sizeChart[props.size]
-      } font-semibold inline-block rounded-full mt-2 mb-2 ${props.textColor} ${
-        props.bgColor
-      }`}
-    >
+    <span className="py-1 px-3 font-semibold inline-block rounded-full mt-2 mb-2 text-purple-600 bg-purple-200">
       {props.label}
     </span>
   );
