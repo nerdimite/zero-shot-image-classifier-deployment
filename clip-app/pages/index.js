@@ -130,7 +130,7 @@ export default function Home() {
         </div>
 
         <Paper>
-          <Label>Endpoint</Label>
+          <Label emoji="📡">Endpoint</Label>
           <div className="w-full p-2 border rounded-md text-gray-700 focus:outline-none focus:border-blue-600 mb-3">
             https://api.cellstrathub.com/
             <input
@@ -142,7 +142,7 @@ export default function Home() {
             />
           </div>
 
-          <Label>API Key</Label>
+          <Label emoji="🔑">API Key</Label>
           <Textbox
             id="key"
             type="password"
@@ -163,7 +163,7 @@ export default function Home() {
             </SecondaryButton>
           </div>
 
-          <Label>Upload Image</Label>
+          <Label emoji="🖼️">Upload Image</Label>
           <input
             type="file"
             className="mb-3 border-none focus:outline-none w-1/2"
