@@ -10,10 +10,14 @@ This code was presented as part of the [Workshop on CellStrat Hub API](https://w
 
 ## Usage
 
-### Model Deployment
+### Development
 
-Blog coming soon! Until then checkout the [CLIP.ipynb Notebook](model_src/CLIP.ipynb)
+- Run the [CLIP.ipynb Notebook](model_src/CLIP.ipynb) to see how CLIP is used for Zero-Shot Image Classification.
+- The [`inference.py module`](model_src/inference.py) is used to run an inference pipeline on any image and a list of classes.
 
-### Web App
+### Deployment
 
-Before you run any of the following commands, change directory to [clip-app](clip-app/)
+- This model is hosted as an API on [CellStrat Hub](https://cellstrathub.com/) and the Interactive Web Demo can be accessed at [https://clip-classifier.netlify.app](https://clip-classifier.netlify.app)
+
+- The model is deployed as an API using [CellStrat Hub](https://cellstrathub.com/). You can learn more about deployment [here](https://docs.cellstrathub.com/hubapi%20deployment%20%F0%9F%9A%80/quickstart/)
+- The Next.js Frontend App's source code can be found at [clip-app/](clip-app/)
