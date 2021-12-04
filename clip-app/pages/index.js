@@ -55,7 +55,7 @@ export default function Home() {
   };
 
   const predict = async () => {
-    setStatus("⏳ The Model is Generating the Title");
+    setStatus("⏳ The model is performing inference");
     setLoading(true);
 
     try {
