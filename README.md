@@ -2,7 +2,7 @@
 
 This repository contains the End-to-End source code for deploying a Zero-Shot Image Classifier using CLIP as a REST API using [CellStrat Hub](https://cellstrathub.com) and integrating the API into a Nextjs (React) App.
 
-This code was presented as part of the [Workshop on CellStrat Hub API](https://www.meetup.com/Disrupt-4-0/events/281691990/)
+This code was presented as part of a [Workshop on CellStrat Hub API which can be viewed here](https://www.youtube.com/watch?v=DsruvxMAULU)
 
 ## CLIP Architecture
 
