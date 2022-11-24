@@ -3,3 +3,5 @@ __pycache__
 ViT-B-32.pt
 ViT-B-16.pt
 *.pptx
+*.zip
+CLIP - BMS.ipynb

@@ -189,7 +189,7 @@ export default function Home() {
             onChange={(e) => {
               let _classes = e.target.value
                 .split(",")
-                .map((item, idx) => "a photo of " + item.trim());
+                .map((item, idx) => item.trim());
               console.log(_classes);
               setClasses(_classes);
             }}
